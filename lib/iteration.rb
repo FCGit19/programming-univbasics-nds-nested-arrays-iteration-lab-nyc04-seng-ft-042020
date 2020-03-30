@@ -11,7 +11,8 @@ def join_ingredients(src)
   row_index = 0
   
   while row_index < src.count do 
-    new_sentence = "I love #{src[0]} and #{src[1]} on my pizza"
+    inner_array = src[row_index]
+    new_sentence = "I love #{inner_array[0]} and #{inner_array[1]} on my pizza"
       new_array << new_sentence
     row_index += 1   
   end 
