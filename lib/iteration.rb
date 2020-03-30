@@ -14,19 +14,18 @@ def join_ingredients(src)
     element_index = 0
     new_sentence = "I love #{src[0][1]} and #{src[0][1]} on my pizza"
       new_array << new_sentence
-    
+    row_index += 1   
+  end 
+    return new_array
+end
+
+# wrong
     # while element_index < src[row_index].count do 
     # #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
     #   new_array << new_sentence  new_sentence = "I love 
       
     #   element_index += 1
     # end 
-    
-    row_index += 1   
-  end 
-    return new_array
-end
-
 
 
 
