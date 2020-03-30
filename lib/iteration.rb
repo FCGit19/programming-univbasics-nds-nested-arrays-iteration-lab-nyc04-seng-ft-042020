@@ -35,8 +35,8 @@ def find_greater_pair(src)
     if inner_array[0] > inner_array[1]
       new_array << inner_array[0]
     else new_array << inner_array[1]
-    end
     row_index += 1
+    end
   end
   new_array
 end
