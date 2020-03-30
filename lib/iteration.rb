@@ -19,14 +19,6 @@ def join_ingredients(src)
     return new_array
 end
 
-# wrong
-    # while element_index < src[row_index].count do 
-    # #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
-    #   new_array << new_sentence  new_sentence = "I love 
-      
-    #   element_index += 1
-    # end 
-
 
 
 def find_greater_pair(src)
