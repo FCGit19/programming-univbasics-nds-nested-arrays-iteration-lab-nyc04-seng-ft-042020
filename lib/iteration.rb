@@ -12,8 +12,7 @@ def join_ingredients(src)
   
   while row_index < src.count do 
     element_index = 0
-    
-    #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza"
+    "I love #{src[0][1]} and #{src[0][1]} on my pizza"
       new_array << new_sentence
     
     # while element_index < src[row_index].count do 
