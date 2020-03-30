@@ -10,7 +10,7 @@ def join_ingredients(src)
   new_array = []
   row_index = 0
   
-  while row_index < src.count do 
+  while row_index < src.count do # accessing the inner arrays 
     inner_array = src[row_index]
     new_sentence = "I love #{inner_array[0]} and #{inner_array[1]} on my pizza"
       new_array << new_sentence
